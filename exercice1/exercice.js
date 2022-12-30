@@ -1,4 +1,5 @@
-$("div").animate({
-    left: "250px",
-    height: "500px"
-});
+$("div").click(function () {
+    $("div").animate({
+        left: "250px"
+    });
+})
